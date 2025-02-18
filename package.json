@@ -1,0 +1,32 @@
+{
+  "name": "ahj-hw-http-backend",
+  "version": "1.0.0",
+  "description": "server",
+  "homepage": "https://github.com/oksana-danilova/ahj-hw-http-backend#readme",
+  "bugs": {
+    "url": "https://github.com/oksana-danilova/ahj-hw-http-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oksana-danilova/ahj-hw-http-backend.git"
+  },
+  "license": "ISC",
+  "author": "oksana-danilova",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "dependencies": {
+    "koa": "^2.15.4",
+    "koa-body": "^6.0.1",
+    "koa-router": "^13.0.1",
+    "nodemon": "^3.1.9",
+    "uuid": "^11.0.5"
+  },
+  "engines": {
+    "node": "22.11.0",
+    "npm": "11.1.0"
+  }
+}
